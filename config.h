@@ -58,7 +58,7 @@ static const Rule rules[] = {
         { NULL,      "st",       NULL,       0,            0,           -1 },
         { NULL,      NULL,       "cmus",     1 << 8                        },
         { NULL,      NULL,       "neomutt",  1 << 7                        },
-        { "firefox", NULL,       NULL,       1,            1,           -1 },
+        { "Google-chrome", NULL, NULL,       1,            1,           -1 },
         { "discord", NULL,       NULL,       2,            1,           -1 },
         { NULL,      NULL,       "Spotify",  1 << 8,       1               },
 };
