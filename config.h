@@ -120,7 +120,6 @@ static Key keys[] = {
     { MODKEY,                       XK_minus,  incrgaps,       {.i = -1 } },
     { MODKEY|ShiftMask,             XK_equal,  defaultgaps,    {0} },
     { MODKEY|ShiftMask,             XK_minus,  togglegaps,     {0} },
-	{ MODKEY,                       XK_m,      setlayout,      {0} },
 	{ MODKEY,                       XK_w,      togglefloating, {0} },
     { MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
     { MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[1]} },
@@ -173,7 +172,8 @@ static Key keys[] = {
 
     /* application shortcuts */
     { MODKEY|ControlMask,           XK_w,      spawn,          SHCMD("$TERMINAL -e nmtui") },
-    { MODKEY|ShiftMask,             XK_m,      spawn,          SHCMD("$TERMINAL -e cmus") },
+    { MODKEY,                       XK_m,      spawn,          SHCMD("$TERMINAL -e cmus") },
+    { MODKEY|ShiftMask,             XK_m,      spawn,          SHCMD("spotify") },
     { MODKEY|ShiftMask,             XK_e,      spawn,          SHCMD("$TERMINAL -e neomutt") },
     { MODKEY|ShiftMask,             XK_n,      spawn,          SHCMD("$TERMINAL -e nnn -d -H -r") },
 };
@@ -193,6 +193,3 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
-
-
