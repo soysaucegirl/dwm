@@ -167,8 +167,6 @@ static Key keys[] = {
     { MODKEY,                       XK_semicolon, spawn,       SHCMD("slock") },
     { MODKEY|ShiftMask,             XK_p,      spawn,          SHCMD("import /tmp/shot.png") },
     { MODKEY,                       XK_space,  spawn,          SHCMD("keymash") },
-    { MODKEY,                       XK_z,      spawn,          SHCMD("clipmenu") },
-    { MODKEY|ShiftMask,             XK_z,      spawn,          SHCMD("dmenuunicode") },
 
     /* application shortcuts */
     { MODKEY|ControlMask,           XK_w,      spawn,          SHCMD("$TERMINAL -e nmtui") },
