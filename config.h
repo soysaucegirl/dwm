@@ -60,6 +60,7 @@ static const Rule rules[] = {
         { NULL,      NULL,       "neomutt",  1 << 7                        },
         { "firefox", NULL,       NULL,       1,            1,           -1 },
         { "discord", NULL,       NULL,       2,            1,           -1 },
+        { NULL,      NULL,       "Spotify",  1 << 8,       1               },
 };
 
 /* layout(s) */
@@ -103,7 +104,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 
-        /* window manager */
+    /* window manager */
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
