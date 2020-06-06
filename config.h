@@ -19,7 +19,7 @@ static const int smartgaps          = 0;
 static const char *fonts[]          = { "mononoki:size=10",
                                         "Font Awesome 5 Free Solid:size=8:antialias=true:autohint=true",
                                         "Font Awesome 5 Brands Regular:size=8:antialias=true:autohint=true",
-                                        "JoyPixels:pixelsize=10:antialias=true:autohint=true"
+                                        "JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 static const char dmenufont[]       = "mononoki:size=10";
 
