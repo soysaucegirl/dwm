@@ -170,7 +170,7 @@ static Key keys[] = {
 
     /* application shortcuts */
     { MODKEY|ControlMask,           XK_w,      spawn,          SHCMD("$TERMINAL -e nmtui") },
-    { MODKEY,                       XK_m,      spawn,          SHCMD("$TERMINAL -e cmus") },
+    { MODKEY,                       XK_m,      spawn,          SHCMD("$TERMINAL -e ncmpcpp") },
     { MODKEY|ShiftMask,             XK_m,      spawn,          SHCMD("spotify") },
     { MODKEY|ShiftMask,             XK_e,      spawn,          SHCMD("$TERMINAL -e neomutt") },
     { MODKEY|ShiftMask,             XK_n,      spawn,          SHCMD("$TERMINAL -e nnn -d -H -r") },
