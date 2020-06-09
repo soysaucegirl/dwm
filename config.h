@@ -9,10 +9,10 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 
 /* gaps */
-static const int gappih             = 20;
-static const int gappiv             = 20;
-static const int gappoh             = 20;
-static const int gappov             = 20;
+static const int gappih             = 15;
+static const int gappiv             = 15;
+static const int gappoh             = 15;
+static const int gappov             = 15;
 static const int smartgaps          = 0;
 
 /* fonts */
