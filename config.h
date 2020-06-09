@@ -171,8 +171,8 @@ static Key keys[] = {
     { MODKEY,                       XK_backslash, spawn,       SHCMD("mpc toggle") },   
     { MODKEY|ShiftMask,             XK_bracketright, spawn,    SHCMD("mpc next") },
     { MODKEY|ShiftMask,             XK_bracketleft, spawn,     SHCMD("mpc prev") },
-    { MODKEY,                       XK_bracketright, spawn,    SHCMD("seekthrough +5") },
-    { MODKEY,                       XK_bracketleft, spawn,     SHCMD("seekthrough -5") },
+    { MODKEY,                       XK_bracketright, spawn,    SHCMD("mpc seekthrough +5") },
+    { MODKEY,                       XK_bracketleft, spawn,     SHCMD("mpc seekthrough -5") },
 
     /* application shortcuts */
     { MODKEY|ControlMask,           XK_w,      spawn,          SHCMD("$TERMINAL -e nmtui") },
