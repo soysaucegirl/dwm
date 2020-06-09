@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */ /* This is bloated as shit and needs to have a patch in particular removed. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
+static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int snap      = 10;       /* snap pixel */
 
 /* bar */
@@ -116,8 +116,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_BackSpace, killclient,  {0} },
     { MODKEY,                       XK_q,      killclient,     {0} },
-    { MODKEY,                       XK_equal,  incrgaps,       {.i = +1 } },
-    { MODKEY,                       XK_minus,  incrgaps,       {.i = -1 } },
+    { MODKEY,                       XK_equal,  incrgaps,       {.i = +5 } },
+    { MODKEY,                       XK_minus,  incrgaps,       {.i = -5 } },
     { MODKEY|ShiftMask,             XK_equal,  defaultgaps,    {0} },
     { MODKEY|ShiftMask,             XK_minus,  togglegaps,     {0} },
 	{ MODKEY,                       XK_w,      togglefloating, {0} },
