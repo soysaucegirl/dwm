@@ -167,12 +167,9 @@ static Key keys[] = {
     { MODKEY,                       XK_semicolon, spawn,       SHCMD("slock") },
     { MODKEY|ShiftMask,             XK_p,      spawn,          SHCMD("import /tmp/shot.png") },
     { MODKEY,                       XK_space,  spawn,          SHCMD("keymash") },
-    /* music controls */
     { MODKEY,                       XK_backslash, spawn,       SHCMD("mpc toggle") },   
-    { MODKEY|ShiftMask,             XK_bracketright, spawn,    SHCMD("mpc next") },
-    { MODKEY|ShiftMask,             XK_bracketleft, spawn,     SHCMD("mpc prev") },
-    { MODKEY,                       XK_bracketright, spawn,    SHCMD("mpc seekthrough +5") },
-    { MODKEY,                       XK_bracketleft, spawn,     SHCMD("mpc seekthrough -5") },
+    { MODKEY,                       XK_bracketright, spawn,    SHCMD("mpc next") },
+    { MODKEY,                       XK_bracketleft, spawn,     SHCMD("mpc prev") },
 
     /* application shortcuts */
     { MODKEY|ControlMask,           XK_w,      spawn,          SHCMD("$TERMINAL -e nmtui") },
