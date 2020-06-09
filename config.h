@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */ /* This is bloated as shit and needs to have a patch in particular removed. */
 
 /* appearance */
-static const unsigned int borderpx  = 3;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 10;       /* snap pixel */
 
 /* bar */
