@@ -36,12 +36,14 @@ static const char *colors[][3] = {
 	/*               fg           bg           border   */
 	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
 	[SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
+        [SchemeTitle]= { normbgcolor, normbgcolor, normbgcolor     },
 };
 
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
 	[SchemeNorm] = { baralpha, baralpha, borderalpha },
 	[SchemeSel]  = { baralpha, baralpha, borderalpha },
+        [SchemeTitle]= { baralpha, baralpha, borderalpha },
 };
 
 /* tagging */
