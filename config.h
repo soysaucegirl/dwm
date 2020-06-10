@@ -17,8 +17,8 @@ static const int smartgaps          = 0;
 
 /* fonts */
 static const char *fonts[]          = { "mononoki:size=10",
-                                        "Font Awesome 5 Free Solid:size=8:antialias=true:autohint=true",
-                                        "Font Awesome 5 Brands Regular:size=8:antialias=true:autohint=true",
+                                        "Font Awesome 5 Free Solid:size=10:antialias=true:autohint=true",
+                                        "Font Awesome 5 Brands Regular:size=10:antialias=true:autohint=true",
                                         "JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 static const char dmenufont[]       = "mononoki:size=10";
@@ -45,7 +45,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
 
 /* rules */
 static const Rule rules[] = {
