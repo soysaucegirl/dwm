@@ -24,26 +24,24 @@ static const char *fonts[]          = { "mononoki:size=10",
 static const char dmenufont[]       = "mononoki:size=10";
 
 /* colours */
-static const char normbgcolor[]     = "#181818";
-static const char normbordercolor[] = "#383838";
-static const char normfgcolor[]     = "#d8d8d8";
-static const char selfgcolor[]      = "#d8d8d8";
-static const char selbordercolor[]  = "#484848";
-static const char selbgcolor[]      = "#7a42ab";
+static const char normbgcolor[]     = "#222222";
+static const char normbordercolor[] = "#444444";
+static const char normfgcolor[]     = "#bbbbbb";
+static const char selfgcolor[]      = "#eeeeee";
+static const char selbordercolor[]  = "#005577";
+static const char selbgcolor[]      = "#005577";
 static const unsigned int baralpha  = OPAQUE; 
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3] = {
 	/*               fg           bg           border   */
 	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
 	[SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
-        [SchemeTitle]= { normbgcolor, normbgcolor, normbgcolor     },
 };
 
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
 	[SchemeNorm] = { baralpha, baralpha, borderalpha },
 	[SchemeSel]  = { baralpha, baralpha, borderalpha },
-        [SchemeTitle]= { baralpha, baralpha, borderalpha },
 };
 
 /* tagging */
