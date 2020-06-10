@@ -25,10 +25,10 @@ static const char dmenufont[]       = "mononoki:size=10";
 
 /* colours */
 static const char normbgcolor[]     = "#181818";
-static const char normbordercolor[] = "#444444";
+static const char normbordercolor[] = "#383838";
 static const char normfgcolor[]     = "#d8d8d8";
 static const char selfgcolor[]      = "#d8d8d8";
-static const char selbordercolor[]  = "#7a42ab";
+static const char selbordercolor[]  = "#484848";
 static const char selbgcolor[]      = "#7a42ab";
 static const unsigned int baralpha  = OPAQUE; 
 static const unsigned int borderalpha = OPAQUE;
