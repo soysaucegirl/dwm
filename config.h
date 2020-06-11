@@ -72,7 +72,7 @@ static const int resizehints = 0;    /* 1 means respect size hints in tiled resi
 #include "layouts.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[]=",      tile },    /* first entry is default */
+	{ "[]",      tile },    /* first entry is default */
         { "TTT",      bstack },
 	{ "[M]",      monocle },
 	{ "[D]",      deck },
