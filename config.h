@@ -60,7 +60,6 @@ static const Rule rules[] = {
         { NULL,      NULL,       "neomutt",  1 << 7                        },
         { "Chromium", NULL,      "Chromium", 1,            1,           -1 },
         { "discord", NULL,       NULL,       2,            1,           -1 },
-        { NULL,      NULL,       "Spotify",  1 << 8,       1               },
 };
 
 /* layout(s) */
